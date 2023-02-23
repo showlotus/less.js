@@ -449,4 +449,8 @@ colorFunctions = {
     }
 };
 
-export default colorFunctions;
+// export default colorFunctions;
+
+const { fade, shade, tint } = colorFunctions;
+
+export { Color, fade, shade, tint };
